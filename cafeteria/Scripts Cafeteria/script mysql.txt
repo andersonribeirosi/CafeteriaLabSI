@@ -1,0 +1,23 @@
+SELECT * FROM cafeteria.categoria;
+
+
+use cafeteria
+
+
+
+insert into categoria(nome, descricao, data_pedido, finalizado) 
+values ('Suelena Ribeiro', 'Tapioca de queijo , coca-cola', current_timestamp(), false)
+
+
+
+DELETE FROM categoria WHERE id_Produto = 2;
+
+
+
+
+
+id_produto int pk nn ai
+nome varchar(45)
+descricao varchar(45)
+data_pedido varchar(45)
+finalizado varchar(45)
